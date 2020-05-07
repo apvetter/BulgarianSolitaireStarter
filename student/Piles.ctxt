@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Piles
+comment0.text=\r\n\ A\ class\ that\ plays\ Bulgarian\ Solitare.\ \r\n\ Version\ 1\:\ Implement\ the\ playRound\ and\ toString\ methods.\r\n
+comment1.params=pileSizes
+comment1.target=Piles(int[])
+comment1.text=\r\n\ \ \ \ \ \ Create\ a\ set\ of\ piles\ with\ a\ known\ (non-random)\ configuration\ for\ testing.\r\n\ \ \ \ \ \ Also\ Creates\ Solution\ to\ be\ compared\ to\r\n\ \ \ \ \ \ @param\ pileSizes\ an\ array\ of\ numbers\ whose\ sum\ is\ 45\r\n
+comment2.params=
+comment2.target=Piles()
+comment2.text=\r\n\ Creates\ a\ set\ of\ piles\ with\ an\ unknown\ configuration\ for\ application\r\n\ Also\ Generates\ Solution\ to\ be\ compared\ with\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Return\ the\ string\ representation\ of\ the\ piles.\r\n\ @return\ the\ string\ representation\ of\ the\ piles.\r\n
+comment4.params=
+comment4.target=boolean\ getStatus()
+comment4.text=\r\n\ Returns\ whether\ or\ not\ a\ solution\ has\ been\ found\r\n
+comment5.params=
+comment5.target=void\ playRound()
+comment5.text=\r\n\ \ \ \ \ \ Play\ one\ round\ of\ the\ game.\r\n
+numComments=6

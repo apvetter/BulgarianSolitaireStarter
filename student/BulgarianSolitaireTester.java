@@ -6,6 +6,8 @@ public class BulgarianSolitaireTester
    public static void main(String[] args)
    {
       Piles deck = new Piles(new int[]{ 20, 5, 1, 9, 10 });
+ 
+        
       deck.playRound();
       System.out.println(deck);
       System.out.println("Expected: [19, 4, 8, 9, 5]");
@@ -23,6 +25,7 @@ public class BulgarianSolitaireTester
       System.out.println("Expected: [15, 4, 5, 1, 2, 4, 6, 8]");
       deck.playRound();
       System.out.println(deck);
-      System.out.println("Expected: [14, 3, 4, 1, 3, 5, 7, 8]");      
+      System.out.println("Expected: [14, 3, 4, 1, 3, 5, 7, 8]");
+
    }
 }
